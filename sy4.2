@@ -1,0 +1,15 @@
+# make changes: edit `README.md` using a text editor
+
+# create a new file
+touch .gitignore
+
+# stage the changed files
+git add README.md .gitignore
+
+# commit your changes (a snapshot of the staging area, including anything added)
+git commit -m "added .gitignore and edited README.md"
+
+# push changes to github (-u/--set-upstream is only required the first time)
+git push --set-upstream origin my-branch
+
+# now go to GitHub and open a pull request, then merge my-branch into master
